@@ -42,4 +42,25 @@
         border-radius: 8px;
         padding-left: 30px;
     }
+
+    @media(max-width: 640px) {
+        .container{
+            display: block;
+        }
+
+        &__details {
+            display: block;
+            
+
+            &__info{
+                text-align: center;
+                padding-bottom: 50px;
+            }
+        }
+
+        &__image {
+            padding: 0;
+            width: 100%;
+        }
+    }
 }
