@@ -3,11 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Olá</title>
+    <title>Buteco do Pedro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <h1>ola</h1>
+    <header class="hero">
+        <div class="container">
+            <div class="hero__convite">
+                <h1>Buteco do Pedro!</h1>
+                <h2>Vamo tomar uma?</h2>
+            </div>
+            <div class="hero__contagem">
+                <p>A festa irá acontecer dentro de <span id="contador"></span></p>
+            </div>
+        </div>
+    </header>
+    <section class="event event--breja">
+        <div class="container" data-aos="fade-up-right">
+            <div class="event__details">
+                <div class="event__details__info">
+                    <h2 class="event__details__title">Irá ter muita breja gelada!!</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugiat facilis, numquam deserunt enim ullam, obcaecati officia hic, eius iure nisi aut quas cum! Reprehenderit vero repellendus ab tempore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure et alias minima fugit dolores labore, eaque reiciendis, porro explicabo quaerat. Laborum officia, nulla fugit ipsa quis natus expedita veritatis!
+                    </p>
+                </div>
+                <img class="event__image" src="images/heineken.jpg" alt="heineken" >
+            </div>
+        </div>
+    </section>
+    <section class="event event--viola">
+        <div class="container" data-aos="fade-up-right">
+            <div class="event__details">
+                <div class="event__details__info">
+                    <h2 class="event__details__title">Musica boa!</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugiat facilis, numquam deserunt enim ullam, obcaecati officia hic, eius iure nisi aut quas cum! Reprehenderit vero repellendus ab tempore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure et alias minima fugit dolores labore, eaque reiciendis, porro explicabo quaerat. Laborum officia, nulla fugit ipsa quis natus expedita veritatis!
+                    </p>
+                </div>
+                <img class="event__image" src="images/viola.jpg" alt="heineken" >
+            </div>
+        </div>
+    </section>
+    <section class="event event--churras">
+        <div class="container" data-aos="fade-up-right">
+            <div class="event__details">
+                <div class="event__details__info">
+                    <h2 class="event__details__title">E um churras de respeito!</h2>
+                    <p class="event__details__description">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla fugiat facilis, numquam deserunt enim ullam, obcaecati officia hic, eius iure nisi aut quas cum! Reprehenderit vero repellendus ab tempore similique? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde iure et alias minima fugit dolores labore, eaque reiciendis, porro explicabo quaerat. Laborum officia, nulla fugit ipsa quis natus expedita veritatis!
+                    </p>
+                </div>
+                <img class="event__image" src="images/churras.jpg" alt="heineken" >
+            </div>
+        </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
 </body>
 </html>

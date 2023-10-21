@@ -1,0 +1,45 @@
+.event{
+    background: linear-gradient(180deg, #E2C799 0%, #C08261 100%);
+    padding: 80px 0;
+    color:#9A3B3B;
+
+    &--viola{
+        background: linear-gradient(180deg, #c08261 0%, #e2c799 100%);
+
+    }
+
+    &--churras{
+        background: linear-gradient(180deg, #E2C799 0%, #C08261 100%);
+    } 
+
+    
+
+    .container{
+        display: flex;
+    }
+    &__details{
+        display: flex;
+        
+
+        &__info{
+            display: block;
+        }
+
+        &__title{
+            font-size: 18px;
+            font-weight: bold; 
+            padding-bottom: 16px;
+        }
+
+        &__description{
+            font-size: 16px;
+        }
+    }
+
+    &__image{
+        
+        height: 200px;
+        border-radius: 8px;
+        padding-left: 30px;
+    }
+}
